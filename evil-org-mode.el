@@ -30,6 +30,7 @@
 (require 'evil)
 (require 'org)
 
+;;;###autoload
 (define-minor-mode evil-org-mode
   "Buffer local minor mode for evil-org"
   :init-value nil
@@ -37,6 +38,7 @@
   :keymap (make-sparse-keymap) ; defines evil-org-mode-map
   :group 'evil-org)
 
+;;;###autoload
 (add-hook 'org-mode-hook 'evil-org-mode) ;; only load with org-mode
 
 (defun always-insert-item ()
