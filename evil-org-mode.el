@@ -102,5 +102,5 @@
           ))
       '(normal insert))
 
-(provide 'evil-org)
-;;; evil-org.el ends here
+(provide 'evil-org-mode)
+;;; evil-org-mode.el ends here
